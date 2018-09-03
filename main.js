@@ -170,7 +170,7 @@ $(document).ready(function() {
     }
 
     $.ajax({
-      url: "https://graph.facebook.com/v2.12/" + fb_biz_id + "/ad_studies",
+      url: "https://graph.facebook.com/v3.0/" + fb_biz_id + "/ad_studies",
       type: 'POST',
       dataType: 'json',
       data: formData,
